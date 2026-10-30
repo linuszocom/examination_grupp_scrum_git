@@ -217,12 +217,6 @@ Varje person skriver 2–3 meningar under sitt eget namn: *Vad har du lärt dig 
 
 ---
 
-### **AI och ägarskap**
-
-AI är tillåtet. **Du** måste kunna förklara din PR, gruppens Git-flöde, er sprint och din Scrum-roll. Kan du inte det = IG för dig.
-
----
-
 ### **Betyg**
 
 Gruppexaminationen bedöms med **G** eller **IG**. Det går inte att få VG på en gruppexamination; VG kan ni få på de individuella examinationerna.
