@@ -219,8 +219,6 @@ Varje person skriver 2–3 meningar under sitt eget namn: *Vad har du lärt dig 
 
 ### **Betyg**
 
-Gruppexaminationen bedöms med **G** eller **IG**. Det går inte att få VG på en gruppexamination; VG kan ni få på de individuella examinationerna.
-
 #### **Godkänt (G)**
 
 - Allt under "Instruktioner steg för steg" och Klart-check är uppfyllt.
