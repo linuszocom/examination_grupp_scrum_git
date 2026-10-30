@@ -22,13 +22,15 @@ All Scrum-dokumentation skrivs i `README.md`. Tavlan skapas i **Google Kalkylark
 
 ### **Dagsplan för sprinten**
 
-| Dag | Fokus |
-|-----|-------|
-| **Måndag** | Sprintplanering: fördela roller, sätta upp repo & tavla, skriva user stories och sprintmål |
-| **Tisdag** | Sprintarbete: Daily standup 1, feature-branches, Pull Requests och code review |
-| **Onsdag** | Sprintarbete: Daily standup 2, hantera **ändrat krav** samt genomföra **merge-konflikt** |
-| **Torsdag** | Avslutning: Daily standup 3, sista PR:erna mergas, retrospektiv och färdigställ `README.md` |
-| **Fredag** | Muntlig redovisning och göra små fixes. Inlämning senast **kl. 23:59** |
+Följ dagsplanen. Gör **inte** all kod på måndagen. Varje person gör **en user story på tisdagen och en på onsdagen**, så att era dailies har något att stämma av.
+
+| Dag | Det här gör ni |
+|-----|----------------|
+| **Måndag** | **Sprintplanering.** Välj Scrum Master, skapa repo och tavla, skriv user stories och sprintmål (steg 1). Ingen kod idag. |
+| **Tisdag** | **Daily 1.** Varje person gör sin **första** user story genom hela flödet: Pågår → branch → PR → review → merge → Klart (steg 2). Granska varandras PR:er. |
+| **Onsdag** | **Daily 2.** Hantera det **ändrade kravet** (steg 4). Varje person gör sin **andra** user story genom hela flödet. |
+| **Torsdag** | **Daily 3.** Merga de sista PR:erna. Håll retrospektivet (steg 5). Skriv svaren på teorifrågorna och AI-reflektionen i `README.md`. |
+| **Fredag** | Fixa det sista och förbered redovisningen. **Muntlig redovisning** på er grupps tid (se länken högst upp). Inlämning senast **kl. 23:59**. |
 
 ---
 
@@ -50,7 +52,7 @@ All Scrum-dokumentation skrivs i `README.md`. Tavlan skapas i **Google Kalkylark
      - `US-1 · AK-1 · funktion01 · [Ansvarig]`: *Som en student vill jag se öppettiderna för att veta när jag kan fika.*
      - `US-2 · AK-2 · funktion02 · [Ansvarig]`: *Som en hungrig besökare vill jag se dagens kaka för att veta om jag ska gå dit.*
    - Varje person skriver **minst 2 egna** user stories, och varje person ansvarar för **minst 2 stories** i sprinten.
-   - Tilldela varje egen story ett acceptanskriterium ur tabellen nedan (`AK-3`–`AK-12` eller `AK-14`–`AK-15`) och koppla den till ett ledigt funktionsblock (`funktion03`–`funktion15`). `AK-1`/`AK-2` och `funktion01`/`funktion02` är reserverade för exemplen. Rör inga andra funktioner (utom vid den planerade konfliktövningen).
+   - Tilldela varje egen story ett acceptanskriterium ur tabellen nedan (`AK-3`–`AK-12` eller `AK-14`–`AK-15`) och koppla den till ett ledigt funktionsblock (`funktion03`–`funktion15`). `AK-1`/`AK-2` och `funktion01`/`funktion02` är reserverade för exemplen. Rör inga andra funktioner.
    - Skriv ett tydligt **sprintmål** i `README.md` (en mening som beskriver vad kaféets sida ska visa när sprinten är klar).
 
 #### **2. Git-flöde & Samarbete (Tisdag–Torsdag)**
@@ -96,18 +98,12 @@ All Scrum-dokumentation skrivs i `README.md`. Tavlan skapas i **Google Kalkylark
   3. *Har jag några hinder?*
 * Dokumentera varje möte kortfattat i `README.md` (datum, deltagare, 1 rad per person).
 
-#### **4. Ändrat krav & Merge-konflikt (Onsdag)**
+#### **4. Ändrat krav (Onsdag)**
 
-* **Ändrat krav:** På onsdagen meddelar kunden en prioritering:
-  - Kunden vill omedelbart införa kundkortet (**AK-13**).
-  - Skapa ett nytt kort: `US-[nästa lediga nr] · AK-13 · [ledig funktion] · [Ansvarig]`.
-  - Scrum Master leder en kort omprioritering: lägg till det nya kortet i sprinten och besluta om något annat kort ska flyttas tillbaka till backloggen. Dokumentera ändringen under `## Ändrat krav` i README.
-* **Planerad Merge-konflikt:**
-  - Två personer utgår från samma uppdaterade `main` och skapar var sin branch.
-  - Båda ändrar `return`-raden i **samma** funktion på olika sätt, committar och öppnar var sin PR.
-  - Den första PR:en mergas. Den andra PR:en får då en konflikt på GitHub.
-  - Lös konflikten tillsammans, slutför review och merga.
-  - Dokumentera kort under `## Merge-konflikt` i README vad som krockade och hur ni löste det.
+På onsdagen meddelar kunden en prioritering:
+- Kunden vill omedelbart införa kundkortet (**AK-13**).
+- Skapa ett nytt kort: `US-[nästa lediga nr] · AK-13 · [ledig funktion] · [Ansvarig]`.
+- Scrum Master leder en kort omprioritering: lägg till det nya kortet i sprinten och besluta om något annat kort ska flyttas tillbaka till backloggen. Dokumentera ändringen under `## Ändrat krav` i README.
 
 #### **5. Retrospektiv (Torsdag)**
 
@@ -180,10 +176,6 @@ När sprinten är klar ska kaféets startsida visa …
 - Varför (kundens anledning):
 - Hur vi planerade om sprinten:
 
-## Merge-konflikt
-- Vad som krockade:
-- Hur vi löste det:
-
 ## Retrospektiv
 - Start:
 - Stop:
@@ -212,7 +204,6 @@ Allt nedan ska vara klart vid inlämningen fredag kl. 23:59. Ni behöver inte va
 - [ ] **Varje student** har minst **två mergade PR:er** som **någon annan** godkänt (Approve)
 - [ ] Minst **3 dailies** dokumenterade i README
 - [ ] **Ändrat krav** genomfört och dokumenterat (vad, varför, hur ni planerade om)
-- [ ] **Minst en löst merge-konflikt**, beskriven i README
 - [ ] Retrospektiv (Start / Stop / Continue + en förbättring) i README
 - [ ] Teorisvar + AI-reflektion i README
 - [ ] Sidan visar alla stories som ligger i **Klart**
@@ -227,7 +218,8 @@ Svara tillsammans. Ungefär **2–4 meningar per fråga**.
 
 1. Vad är **agil utveckling** kortfattat, och vilken **fördel** såg ni när kravet ändrades under sprinten?
 2. Beskriv **Scrum** med minst två roller eller begrepp ni **faktiskt använt** — och hur ni använde dem.
-3. Hur samarbetade ni med **Git och GitHub**? Ge exempel från er historik: branch, Pull Request, review och konflikten ni löste.
+3. Hur samarbetade ni med **Git och GitHub**? Ge exempel från er historik: branch, Pull Request och review.
+4. Vad är en **merge-konflikt**, när uppstår den och hur löser man den på GitHub? Ge ett exempel med en funktion i `index.html`. Om ni fick en konflikt under veckan, beskriv den.
 
 **AI-reflektion** (ca 3–5 meningar):  
 Hur gjorde ni när ni körde fast? Om ni använde AI: ett exempel där ni **ändrade** förslaget innan det fungerade hos er.
@@ -254,5 +246,5 @@ Gruppexaminationen bedöms med **G** eller **IG**. Det går inte att få VG på 
 #### **Godkänt (G)**
 
 - Allt under "Instruktioner steg för steg" och Klart-check är uppfyllt.
-- Historiken och tavlan visar att alla bidragit. Varje student har minst två mergade PR:er som någon annan godkänt. Konflikten är löst och dokumenterad.
+- Historiken och tavlan visar att alla bidragit. Varje student har minst två mergade PR:er som någon annan godkänt.
 - **Muntligt:** du ger en **övergripande** förklaring av din PR, din roll och hur sprinten gick till när läraren frågar dig.
