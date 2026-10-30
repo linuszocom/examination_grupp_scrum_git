@@ -28,7 +28,7 @@ All Scrum-dokumentation skrivs i `README.md`. Tavlan skapas i **Google Kalkylark
 | **Tisdag** | Sprintarbete: Daily standup 1, feature-branches, Pull Requests och code review |
 | **Onsdag** | Sprintarbete: Daily standup 2, hantera **ändrat krav** samt genomföra **merge-konflikt** |
 | **Torsdag** | Avslutning: Daily standup 3, sista PR:erna mergas, retrospektiv och färdigställ `README.md` |
-| **Fredag** | Muntlig redovisning (Sprint Review). Inlämning senast **kl. 23:59** |
+| **Fredag** | Muntlig redovisning och göra små fixes. Inlämning senast **kl. 23:59** |
 
 ---
 
