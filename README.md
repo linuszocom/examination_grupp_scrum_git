@@ -1,5 +1,7 @@
 # **Gruppexamination 2: Scrum, Git & GitHub i team**
 
+**Grupper och redovisningstider:** [Se gruppindelningen här](https://docs.google.com/spreadsheets/d/1NkVkGaHUfUBU8YMdWOR9mEdUa_dChSqBWT8s3sPZwwI/edit?gid=848476790#gid=848476790)
+
 Ni ska i **grupp** genomföra en **sprint med Scrum** och samarbeta med **Git och GitHub**. Ni planerar arbetet, följer det på en gemensam tavla, hanterar ett ändrat krav under sprinten och levererar via Pull Requests.
 
 Examinationen har två delar:
@@ -54,7 +56,7 @@ All Scrum-dokumentation skrivs i `README.md`. Tavlan skapas i **Google Kalkylark
 #### **2. Git-flöde & Samarbete (Tisdag–Torsdag)**
 
 1. **Repo & Baslinje:** En person skapar ett gemensamt **publikt GitHub-repo**, lägger till övriga som **Collaborators** och pushar startfilen `index.html` samt er `README.md` till `main`. Övriga klonar repot (`git clone`).
-   - Hämta startfilen här: **[LÄNK TILL STARTFILEN]** och spara den som `index.html`.
+   - Hämta startfilen här: **[index.html](https://github.com/linuszocom/examination_grupp_scrum_git/blob/main/index.html)** och spara den som `index.html`.
    - Varje funktion returnerar `""` från start och syns inte på sidan förrän den får en text. Exempel för AK-4 i `funktion04`:
 
    Före:
