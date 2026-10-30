@@ -2,7 +2,7 @@
 
 **Grupper och redovisningstider:** [Se gruppindelningen här](https://docs.google.com/spreadsheets/d/1NkVkGaHUfUBU8YMdWOR9mEdUa_dChSqBWT8s3sPZwwI/edit?gid=848476790#gid=848476790)
 
-Ni ska i **grupp** genomföra en **sprint med Scrum** och samarbeta med **Git och GitHub**. Ni planerar arbetet, följer det på en gemensam tavla, hanterar ett ändrat krav under sprinten och levererar via Pull Requests.
+Ni ska i **grupp** genomföra en **sprint med Scrum** och samarbeta med **Git och GitHub**. Ni planerar arbetet, följer det på en gemensam tavla och levererar via Pull Requests.
 
 Examinationen har två delar:
 1. **Skriftligt:** ett gemensamt GitHub-repo + `README.md` + länk till er tavla
@@ -28,8 +28,8 @@ Följ dagsplanen. Gör **inte** all kod på måndagen. Varje person gör **en us
 |-----|----------------|
 | **Måndag** | **Sprintplanering.** Välj Scrum Master, skapa repo och tavla, skriv user stories och sprintmål (steg 1). Ingen kod idag. |
 | **Tisdag** | **Daily 1.** Varje person gör sin **första** user story genom hela flödet: Pågår → branch → PR → review → merge → Klart (steg 2). Granska varandras PR:er. |
-| **Onsdag** | **Daily 2.** Hantera det **ändrade kravet** (steg 4). Varje person gör sin **andra** user story genom hela flödet. |
-| **Torsdag** | **Daily 3.** Merga de sista PR:erna. Håll retrospektivet (steg 5). Skriv svaren på teorifrågorna och AI-reflektionen i `README.md`. |
+| **Onsdag** | **Daily 2.** Varje person gör sin **andra** user story genom hela flödet. |
+| **Torsdag** | **Daily 3.** Merga de sista PR:erna. Håll retrospektivet (steg 4). Skriv svaren på teorifrågorna och era personliga reflektioner i `README.md`. |
 | **Fredag** | Fixa det sista och förbered redovisningen. **Muntlig redovisning** på er grupps tid (se länken högst upp). Inlämning senast **kl. 23:59**. |
 
 ---
@@ -52,7 +52,7 @@ Följ dagsplanen. Gör **inte** all kod på måndagen. Varje person gör **en us
      - `US-1 · AK-1 · funktion01 · [Ansvarig]`: *Som en student vill jag se öppettiderna för att veta när jag kan fika.*
      - `US-2 · AK-2 · funktion02 · [Ansvarig]`: *Som en hungrig besökare vill jag se dagens kaka för att veta om jag ska gå dit.*
    - Varje person skriver **minst 2 egna** user stories, och varje person ansvarar för **minst 2 stories** i sprinten.
-   - Tilldela varje egen story ett acceptanskriterium ur tabellen nedan (`AK-3`–`AK-12` eller `AK-14`–`AK-15`) och koppla den till ett ledigt funktionsblock (`funktion03`–`funktion15`). `AK-1`/`AK-2` och `funktion01`/`funktion02` är reserverade för exemplen. Rör inga andra funktioner.
+   - Tilldela varje egen story ett acceptanskriterium ur tabellen nedan (`AK-3`–`AK-15`) och koppla den till ett ledigt funktionsblock (`funktion03`–`funktion15`). `AK-1`/`AK-2` och `funktion01`/`funktion02` är reserverade för exemplen. Rör inga andra funktioner.
    - Skriv ett tydligt **sprintmål** i `README.md` (en mening som beskriver vad kaféets sida ska visa när sprinten är klar).
 
 #### **2. Git-flöde & Samarbete (Tisdag–Torsdag)**
@@ -98,14 +98,7 @@ Följ dagsplanen. Gör **inte** all kod på måndagen. Varje person gör **en us
   3. *Har jag några hinder?*
 * Dokumentera varje möte kortfattat i `README.md` (datum, deltagare, 1 rad per person).
 
-#### **4. Ändrat krav (Onsdag)**
-
-På onsdagen meddelar kunden en prioritering:
-- Kunden vill omedelbart införa kundkortet (**AK-13**).
-- Skapa ett nytt kort: `US-[nästa lediga nr] · AK-13 · [ledig funktion] · [Ansvarig]`.
-- Scrum Master leder en kort omprioritering: lägg till det nya kortet i sprinten och besluta om något annat kort ska flyttas tillbaka till backloggen. Dokumentera ändringen under `## Ändrat krav` i README.
-
-#### **5. Retrospektiv (Torsdag)**
+#### **4. Retrospektiv (Torsdag)**
 
 Håll ett kort retrospektiv när koden är på plats och fyll i `README.md`:
 - **Start:** Något vi vill börja göra i framtida sprintar.
@@ -117,7 +110,7 @@ Håll ett kort retrospektiv när koden är på plats och fyll i `README.md`:
 
 ### **Acceptanskriterier (Kafé Commit)**
 
-Välj **exakt ett** acceptanskriterium per User Story. Varje rad får användas högst en gång. AK-1 och AK-2 är reserverade för exempel-storiesna US-1 och US-2, egna stories använder AK-3–AK-12 och AK-14–AK-15. (AK-13 används för det ändrade kravet på onsdagen).
+Välj **exakt ett** acceptanskriterium per User Story. Varje rad får användas högst en gång. AK-1 och AK-2 är reserverade för exempel-storiesna US-1 och US-2, egna stories använder AK-3–AK-15.
 
 | AK | Sidan visar exakt |
 |----|-------------------|
@@ -133,7 +126,7 @@ Välj **exakt ett** acceptanskriterium per User Story. Varje rad får användas 
 | AK-10 | **Eventkväll: quiz torsdag kl. 18** |
 | AK-11 | **Vegetariskt: dagens soppa** |
 | AK-12 | **Betalning: Swish och kort** |
-| AK-13 | **Kundkort: var tionde kaffe gratis** *(används till det ändrade kravet på onsdagen)* |
+| AK-13 | **Kundkort: var tionde kaffe gratis** |
 | AK-14 | **Tillgänglighet: rullstolsanpassat** |
 | AK-15 | **Uteservering: öppen maj–sep** |
 
@@ -156,13 +149,6 @@ Länk till Google Kalkylark/Docs: [Klistra in länk här]
 ## Sprintmål
 När sprinten är klar ska kaféets startsida visa …
 
-## Produktbacklog
-| ID | Story | Acceptanskriterium | Funktion | Ansvarig | Status |
-|----|-------|--------------------|----------|----------|--------|
-| US-1 | Som en student vill jag se öppettiderna för att veta när jag kan fika. | AK-1 Sidan visar Öppet: 08–16 | funktion01 | | |
-| US-2 | Som en hungrig besökare vill jag se dagens kaka för att veta om jag ska gå dit. | AK-2 Sidan visar Dagens kaka: kanelbulle | funktion02 | | |
-| US-3 | Som en … vill jag … för att … | AK-… Sidan visar … | funktion… | | |
-
 ## Daily standups
 ### [Datum 1 - Tisdag]
 - [Namn]: gjort … / gör nu … / hinder …
@@ -170,11 +156,6 @@ När sprinten är klar ska kaféets startsida visa …
 - [Namn]: gjort … / gör nu … / hinder …
 ### [Datum 3 - Torsdag]
 - [Namn]: gjort … / gör nu … / hinder …
-
-## Ändrat krav
-- Vad ändrades:
-- Varför (kundens anledning):
-- Hur vi planerade om sprinten:
 
 ## Retrospektiv
 - Start:
@@ -185,8 +166,11 @@ När sprinten är klar ska kaféets startsida visa …
 ## Teorifrågor
 (svara på frågorna under Teorifrågor)
 
-## AI-reflektion
-(svara på frågan under AI-reflektion)
+## Personlig reflektion
+### [Namn]
+(2–3 meningar)
+### [Namn]
+(2–3 meningar)
 ```
 
 ---
@@ -203,9 +187,9 @@ Allt nedan ska vara klart vid inlämningen fredag kl. 23:59. Ni behöver inte va
 - [ ] Varje story i sprinten har en egen branch och en **Pull Request** med storyns ID i titeln
 - [ ] **Varje student** har minst **två mergade PR:er** som **någon annan** godkänt (Approve)
 - [ ] Minst **3 dailies** dokumenterade i README
-- [ ] **Ändrat krav** genomfört och dokumenterat (vad, varför, hur ni planerade om)
 - [ ] Retrospektiv (Start / Stop / Continue + en förbättring) i README
-- [ ] Teorisvar + AI-reflektion i README
+- [ ] Svar på teorifrågorna i README
+- [ ] En personlig reflektion från **varje person** i README
 - [ ] Sidan visar alla stories som ligger i **Klart**
 
 **På GitHub:** under **Pull requests → Closed** ska de mergade PR:erna synas, med en approve-review. Under **Commits** på `main` ska gruppens arbete synas. **På tavlan:** korten i Klart ska motsvara mergade PR:er.
@@ -216,13 +200,13 @@ Allt nedan ska vara klart vid inlämningen fredag kl. 23:59. Ni behöver inte va
 
 Svara tillsammans. Ungefär **2–4 meningar per fråga**.
 
-1. Vad är **agil utveckling** kortfattat, och vilken **fördel** såg ni när kravet ändrades under sprinten?
-2. Beskriv **Scrum** med minst två roller eller begrepp ni **faktiskt använt** — och hur ni använde dem.
-3. Hur samarbetade ni med **Git och GitHub**? Ge exempel från er historik: branch, Pull Request och review.
+1. Vad är **agil utveckling**, och vad i ert arbetssätt den här veckan var agilt?
+2. Vilka Scrum-roller och moment använde ni (till exempel Scrum Master, daily, sprint och retrospektiv)? Beskriv hur de fungerade i er grupp.
+3. Beskriv hur en user story gick från `Att göra` till `Klart` hos er, med branch, Pull Request, review och merge.
 4. Vad är en **merge-konflikt**, när uppstår den och hur löser man den på GitHub? Ge ett exempel med en funktion i `index.html`. Om ni fick en konflikt under veckan, beskriv den.
 
-**AI-reflektion** (ca 3–5 meningar):  
-Hur gjorde ni när ni körde fast? Om ni använde AI: ett exempel där ni **ändrade** förslaget innan det fungerade hos er.
+**Personlig reflektion (README, var och en):**  
+Varje person skriver 2–3 meningar under sitt eget namn: *Vad har du lärt dig om att jobba i team med Git och Scrum den här veckan, och vad tar du med dig till nästa gång?*
 
 ---
 
