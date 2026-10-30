@@ -44,7 +44,7 @@ Följ dagsplanen. Gör **inte** all kod på måndagen. Varje person gör **en us
 
 2. **Skapa en tavla** i Google Kalkylark eller Google Docs med följande fem kolumner:
    `Backlog` → `Att göra (sprint)` → `Pågår` → `Granskning` → `Klart`  
-   Ett kort representerar en User Story. Format på kortet: `[ID] · [AK] · [Funktion] · [Ansvarig]` (t.ex. `US-3 · AK-4 · funktion04 · Bilal`). Se till att länken är delad så att läraren kan läsa den, och klistra in länken i `README.md`.
+   Ett kort representerar en User Story. Format på kortet: `[ID] · [AK] · [Funktion] · [Ansvarig]` (t.ex. `US-3 · AK-4 · funktion04 · Linus`). Se till att länken är delad så att läraren kan läsa den, och klistra in länken i `README.md`.
 
 3. **Skriv user stories – minst 2 egna per person:**
    - **Format:** *Som en [roll] vill jag [funktion] för att [syfte].*
